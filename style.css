@@ -1,0 +1,163 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+}
+
+h2,h3{
+    color: #A59678 ;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    border: 2px solid red;
+}
+
+.nav-list{
+   display: flex;
+   align-items: center;
+}
+
+.nav-list_primary{
+    /* margin: 0 auto;     */
+}
+
+.nav-list_secondary{
+    margin-left: auto;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item + .nav-item{
+    margin-left: 10px;
+}
+
+.nav__link{
+    color: #fff;
+}
+
+.nav__link:focus, .nav__link:hover{
+    opacity: 0.90;
+}
+
+.button{
+    background-color: #A59678;
+    padding: .2em 1em;
+    border-radius: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+.button:hover,.button:focus{
+    opacity: 0.90;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #2E323F;
+    margin: 0;
+    padding: 1em 0;
+    color: #fff;
+}
+
+.text-append{
+    color: #A59678;
+}
+
+.section-one{
+    background-color: #6F737F;
+    margin: 0;
+    padding: 2.5em 0;
+    color: #fff;
+}
+
+.button-register{
+    margin-top: 2em;
+}
+
+.section-two{
+    background-color: #e9e7e1;
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+.appraisal + .appraisal{
+    margin-top: 3em;
+}
+
+.section-three{
+    padding: 2.5em 0;
+}
+
+.step-box{
+    padding: 1.5em;
+    background-color: #3B4050;
+    color: #fff;
+    text-align: center;
+}
+
+.step-box h2{
+    color: #fff;
+}
+
+.step-box + .step-box{
+    margin-top: 1em;
+}
+
+footer{
+    background-color: #2E323F;
+    padding: 2.5em 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 1.5rem;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-row_items{
+    width: 40%;
+}
